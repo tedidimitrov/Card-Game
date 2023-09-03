@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "335e678c-f58e-480a-80cf-c629cd9dbdd0",
+		"name": "Card Game",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "9954484"
+	},
+	"item": [
+		{
+			"name": "startGame",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "shuffle",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": "localhost:8080/api/shuffle"
+			},
+			"response": []
+		},
+		{
+			"name": "bet",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
